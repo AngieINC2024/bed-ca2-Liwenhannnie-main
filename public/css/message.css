@@ -1,0 +1,20 @@
+.chat-box {
+  height: 400px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+/* add scroll to messageList if messages gets too long */
+#messageList {
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

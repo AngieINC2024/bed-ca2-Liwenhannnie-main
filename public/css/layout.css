@@ -1,0 +1,34 @@
+/* This is the fixed layout for all screens */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+nav#NavBar {
+  background-color: #f2cea2;
+  box-shadow: 0px 6px 5px #eab779;
+}
+
+#topNavBarText > ul li a {
+  color: black;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+#navbarNav ul li a {
+  color: black;
+}
+footer {
+  background-color: #f2cea2;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}

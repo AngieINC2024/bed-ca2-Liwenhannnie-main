@@ -1,0 +1,31 @@
+body {
+  background: url("../Images/arena.jpg") fixed no-repeat center center / cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.col-md-12 {
+  width: 100%;
+}
+main .container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+label {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#postAttackButton {
+  margin-top: 8px; /* Adjust the top margin as needed */
+}

@@ -1,0 +1,19 @@
+body {
+  background: url("../Images/Alfea.jpg") fixed no-repeat center center / cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+h1 {
+  color: rgb(25, 12, 68);
+}
+
+#UpdateUpgradeDetails {
+  border-radius: 10px;
+  background-color: #f2cea2;
+}
+
+#UpdateDetails {
+  border-radius: 10px;
+  background-color: #f2cea2;
+}

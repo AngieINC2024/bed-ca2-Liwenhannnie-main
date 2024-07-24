@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "test": "npm run init_tables && jest --forceExit",
+    "init_tables": "node src/config/initTable.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  },
+  "name": "bed-ca1-liwenhannnie",
+  "version": "1.0.0",
+  "description": "You are required to build your folder structures for your project.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liwenhannnie/BED-CA2-Angie"
+  },
+  "author": "Angie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liwenhannnie/BED-CA2-Angie/issues"
+  },
+  "homepage": "https://github.com/Liwenhannnie/BED-CA2-Angie#readme",
+  "keywords": []
+}

@@ -1,0 +1,9 @@
+body {
+  background: url("../Images/Alfea.jpg") fixed no-repeat center center / cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.card {
+  background-color: #ea7d61;
+}

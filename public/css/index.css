@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body {
+  background: url("../Images/moon.jpg");
+  background-repeat: repeat;
+}
+@keyframes Bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+.accordion {
+  padding: 10px;
+}
+.parallax {
+  background-color: #a3c9d9;
+  opacity: 70%;
+  height: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.text {
+  animation: Bounce 2s infinite;
+}
+
+#introduction {
+  color: white;
+}
+#Stats h1 {
+  color: white;
+}
+#Stats h2 {
+  background-color: rgba(60, 71, 222, 0.6);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#accordionFlushExample .accordion-item {
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+  border-radius: 14px;
+}
+
+
